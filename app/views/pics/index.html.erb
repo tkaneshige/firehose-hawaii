@@ -1,0 +1,16 @@
+
+<% @pics.each do |pic| %>
+	<div class="fishbox span4 text-center">
+		<h1 class="custom-h1">
+			Lesson: <%= pic.lesson %>
+		</h1>
+			<br />
+		<h2>
+			Emotion: <%= pic.emotion %>
+			<br />
+			<br />
+			Learned: <%= pic.learned %>
+		</h2>
+	</div>
+<% end %>
+
